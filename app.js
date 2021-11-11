@@ -2,8 +2,18 @@ const express = require('express');
 const app = express();
 const port = 3000;
 
+var _ = require('underscore')
+
+test = require ('./js/test')
+test()
+
+console.log(_)
+
+
 app.get('/', (req, res) => {
-  res.send('<h1>Express Demo App</h1> <h4>XXXMessage: Success sortof</h4> <p>Version 2.1</p>');
+  res.send('<h1>Express Demo App</h1> <h4>XXXMessage: Success sortof</h4> <p>Version 2.1</p>' );
+  
+
 })
 
 app.get('/products', (req, res) => {

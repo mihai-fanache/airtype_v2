@@ -1,0 +1,6 @@
+git commit -am 'updatess'
+git push
+
+//to run
+node app.js
+
