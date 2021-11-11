@@ -1,6 +1,30 @@
+git add . 
 git commit -am 'updatess'
 git push
+
 
 //to run
 node app.js
 
+
+//installs
+
+npm install underscore -S
+
+-S adds to package.json as requirements
+
+
+
+
+app.get('/products', (req, res) => {
+  res.send([
+    {
+      productId: '101',
+      price: 100
+    },
+    {
+      productId: '102',
+      price: 150
+    }
+  ])
+})

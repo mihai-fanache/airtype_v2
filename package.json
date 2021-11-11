@@ -2,7 +2,14 @@
   "name": "nodejs-express-on-aws-ec2",
   "version": "0.0.1",
   "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
     "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "got": "^11.8.2",
+    "jsdom": "^18.0.1",
+    "node-fetch": "^3.0.0",
+    "pupeteer": "^0.0.1",
+    "request": "^2.88.2",
     "underscore": "^1.13.1"
   }
 }
